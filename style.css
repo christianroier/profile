@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;1,600&display=swap');
+
+body{
+background-color: rgb(121, 187, 165);
+color: rgb(170, 157, 69);
+font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+p{
+  font-weight: 200;
+}
+
+h2{
+  font-size:25px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+i{
+  color: rgb(43, 104, 84);
+  font-size: 35px;
+}
+
+i:hover{
+  color: rgb(207, 219, 215);
+  font-size: 35px;
+}
+
+.container{
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle{
+border-radius: 50%;
+}
+
+#social-header{
+font-size:15px
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
